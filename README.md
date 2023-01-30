@@ -1,1 +1,4 @@
-# 22122056-MDS273L-JAVA
+Name : Tushar Kumar 
+Reg. No.: 22122056
+Email : tushar.kumar@msds.christuniversity.in
+Class : 2MSCDSA
