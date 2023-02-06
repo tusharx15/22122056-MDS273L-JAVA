@@ -37,8 +37,6 @@ class NameSearch {
                         }
                         
                     }
-                    
-                    
                     break;
 
                 }
