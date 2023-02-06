@@ -1,57 +1,99 @@
 import java.util.Scanner;
 
-public class lab2 {
+class NameSearch {
     public static void main(String[] args) {
-        String arr[] = new String[1024];
-        Scanner scan = new Scanner(System.in);
-        char ch;
-        System.out.println("------WELCOME------");
-        int i =0;
+        Scanner sc = new Scanner(System.in);
+        String[] names = new String[1024];
+        Boolean flag = false;
+        int i = 0;
         do {
-            System.out.println("Welcome to Menu Program. You have the following options available: ");
-            System.out.println("1: Enter a Name.");
-            System.out.println("2: Search a Name.");
-            System.out.println("3: Remove a Name.");
-            System.out.println("Please choose what you want to perform: ");
-            int choice = Integer.parseInt(scan.nextLine());
-            switch (choice) {
-                case 1:
-                    System.out.println("You have chosen to ENTER a Name.");
-                    System.out.println("Please enter the name you wish to enter: ");
-                    String NAME = scan.nextLine();
-                    arr[i] = NAME;
-                    i+=1;
-                    if(arr[i].equalsIgnoreCase(NAME)){
-                        continue;
-                    }else{
-                        System.out.println("----------");
-                        System.out.println("Oops!");
-                        System.out.println("The NAME already exists.");
-                        System.out.println("Please enter a valid name.");
-                        System.out.println("------------");
+
+            flag = true;
+            System.out.println("########### MENU ###########");
+            System.out.println("## 1. Enter the name:    ###");
+            System.out.println("## 2. Search for a name: ###");
+            System.out.println("## 3. Remove a name:    ####");
+            System.out.println("## 4. Print the name list ##");
+            System.out.println("## 5. Quit              ####");
+            System.out.println("############################");
+            System.out.println("Enter your choice: ");
+            int inp = Integer.parseInt(sc.nextLine());
+
+            switch (inp) {
+                case 1: {
+                    int j;
+                    System.out.print("Enter your name: ");
+                    String temp=sc.nextLine();
+                    for ( j=0; j < names.length; j++) {
+                        if (temp.equals(names[j])){
+                            System.out.println("Name is already exist. ");
+                            break;
+
+                        }
+                        else{
+                            names[i] = temp;
+                            i++;
+                            break;
+                        }
+                        
                     }
                     break;
-                case 2:
-                    System.out.println("----------------------------------");
-                    System.out.println("You have chosen to SEARCH a Name.");
-                    System.out.println("--------------------------------");
-                    System.out.println("Kindly enter the name you wish to search for: ");
-                    String search = sc.nextLine();
-                    for (j = 0; j < arr.length; j++) {
-                        if (search.equals(arr[j])) {
-                            System.out.println("Name is found at position " + (j + 1));
-                            System.out.println(search);
+
+                }
+                case 2:{
+                    int j;
+                    System.out.println("Which name your are searching?.");
+                    String sch = sc.nextLine();
+                    for ( j=0; j < names.length; j++) {
+                        if (sch.equals(names[j])){
+                            System.out.println("Name is found at position "+(j+1));
+                            break;
+
+                        }
+                        
+                    }
                     break;
-                case 3:
-                    System.out.println("You have chosen to REMOVE a Name.");
+                }
+                case 3:{
+                    int j;
+                    System.out.println("Which name you want to delete. :");
+                    String ntemp = sc.nextLine();
+                    for ( j=0; j < names.length; j++) {
+                        if (ntemp.equals(names[j])){
+                            for (; j < names.length-1; j++) {
+                                names[j]=names[j+1];
+                                
+                            }
+
+                        }
+                        
+                    }
                     break;
+
+
+                }
+                case 4:{
+                    System.out.println("Your list are: ");
+                    for (String a:names){
+                        if(a!=null){
+                            System.out.print(a+",");
+                        }
+                       
+                    }
+                    System.out.println();
+                    break;
+                }
+                case 5:{
+
+                    System.out.println("Program will now wxit in 3.2.1..");
+                    flag=false;
+                    break;
+                }
+
+
             }
-            System.out.println("Please press 'y' if you want to continue the program!");
-            ch = scan.nextLine().charAt(0);
-        } while (ch == 'Y' || ch == 'y');
-        System.out.println("-------------------");
-        System.out.println("You have successfully exited the program.");
-        System.out.println("See you again :) ");
-        System.out.println("------------------");
+
+        } while (flag);
+
     }
 }
