@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import javax.sound.midi.Soundbank;
+
 public class lab1 {
     public static void main(String[] args) {
 
@@ -37,68 +40,62 @@ public class lab1 {
         } else{
             System.out.println("Please enter a valid option.");
         }
-        switch(state.toLowerCase()){
-            case "kashmir": 
+        switch(state){
+            case "Kashmir": 
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "himachal pradesh":
+            case "Himachal Pradesh":
                 System.out.println("The User is from the Norther Region.");
                 break;
-            case "punjab":
+            case "Punjab":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "ladakh":
+            case "Ladakh":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "jammu":
+            case "Jammu":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "haryana":
+            case "Haryana":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "delhi":
+            case "Delhi":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "rajasthan":
+            case "Rajasthan":
                 System.out.println("The User is from the Northern Region.");
                 break;
-            case "uttar pradesh":
+            case "Uttar Pradesh":
                 System.out.println("The User is from the Central Zone");
                 break;
-            case "uttrakhand":
+            case "Uttrakhand":
                 System.out.println("The User is from the Central Zone");
                 break;
-            case "madhya pradesh":
+            case "Madhya Pradesh":
                 System.out.println("The User is from the Central Zone");
                 break;
-            case "chattisgarh":
+            case "Chattisgarh":
                 System.out.println("The User is from the Central Zone");
                 break;
-            case "jharkhand","odisha","sikkim","west bengal","bihar":
+            case "Jharkhand","Odisha","Sikkim","West Bengal","Bihar":
                 System.out.println("The User is from the Eastern Zone");
                 break;
-            case "gujurat","maharashtra":
+            case "Gujurat","Maharashtra":
                 System.out.println("The User is from the Western Zone");
                 break;
-            case "telangana","karnataka","andhra pradesh","tamil nadu","kerela","goa":
+            case "Telangana","Karnataka","Andhra Pradesh","Tamil Nadu","Kerela","Goa","":
                 System.out.println("The User is from the Southern Zone");
                 break;
-            case "meghalaya","assam","mizoram","manipur","nagaland","arunachal pradesh","tripura":
+            case "Meghalaya","Assam","Mizoram","Manipur","Nagaland","Arunachal Pradesh","Tripura":
                 System.out.println("The User is from the North-Eastern Zone");
                 break;
         }
-        switch(company.toLowerCase()){
-            case "facebook", "google", "microsoft", "samsung", "ibm", "apple", "amazon":
+        switch(company){
+            case "Facebook", "Google", "Microsoft", "Samsung", "IBM", "Apple", "Amazon":
                 System.out.println("----------------");
                 System.out.println("The User is working in an MNC");
                 System.out.println("----------------");
-                break;
-            default:
-                System.out.println("-----------------------------");
-                System.out.println("The User works in "+company);
-                System.out.println("--------------------------");
         }
-
 
    }
 }
