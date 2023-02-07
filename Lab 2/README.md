@@ -1,7 +1,5 @@
 # LAB-2
 # QUESTION:
-
-
 You are supposed to create a menu-driven program that has the following menu options:
 Enter a name
 Search for a name
@@ -27,67 +25,90 @@ Format your results properly!!
 
 
 # OUTPUT:
-PS D:\Tushar\CHRIST DOCS\SEM-II\JAVA\22122056-MDS273L-JAVA\Lab 2> java lab2.java  
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
+------------WELCOME--------------
+
+Welcome to Menu Program.## You have the following options available:
+
+1: Enter a Name.
+2: Search a Name.
+3: Remove a Name.
+
+Please choose what you want to perform:
 1
-Enter your name: Tushar
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
+--------------------------------
+You have chosen to ENTER a Name.
+------------------------------------
+Please enter the name you wish to enter:
+Luffy
+*******************************************************
+Please press 'y' if you want to continue the program!
+***********************************************************
+y
+
+Welcome to Menu Program.## You have the following options available: 
+1: Enter a Name.
+2: Search a Name.
+3: Remove a Name.
+Please choose what you want to perform:
+1
+--------------------------------
+You have chosen to ENTER a Name.
+------------------------------------
+Please enter the name you wish to enter:
+Zoro
+*******************************************************
+Please press 'y' if you want to continue the program!
+***********************************************************
+y
+
+Welcome to Menu Program.## You have the following options available: 
+1: Enter a Name.
+2: Search a Name.
+3: Remove a Name.
+Please choose what you want to perform:
+1
+--------------------------------
+You have chosen to ENTER a Name.
+------------------------------------
+Please enter the name you wish to enter:
+Sanji
+*******************************************************
+Please press 'y' if you want to continue the program!
+***********************************************************
+y
+
+Welcome to Menu Program.## You have the following options available: 
+1: Enter a Name.
+2: Search a Name.
+3: Remove a Name.
+Please choose what you want to perform:
 2
-Which name your are searching?.
-Tushar
-Name is found at position 1
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
+----------------------------------
+You have chosen to SEARCH a Name.
+--------------------------------
+Kindly enter the name you wish to search for:
+Zoro
+Name is found at position 2
+Zoro
+*******************************************************
+Please press 'y' if you want to continue the program!
+***********************************************************
+y
+
+Welcome to Menu Program.## You have the following options available: 
+1: Enter a Name.
+2: Search a Name.
+3: Remove a Name.
+Please choose what you want to perform:
 3
-Which name you want to delete. :
-Tushar
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
-4
-Your list are: 
-
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
-4
-Your list are: 
-
-########### MENU ###########
-## 1. Enter the name:    ###
-## 2. Search for a name: ###
-## 3. Remove a name:    ####
-## 4. Print the name list ##
-## 5. Quit              ####
-############################
-Enter your choice:
+------------------------------------
+You have chosen to REMOVE a Name.
+--------------------------------------
+Please select the name you wish to remove:
+Sanji
+The updated list is: Luffy Zoro
+*******************************************************
+Please press 'y' if you want to continue the program!
+***********************************************************
+n
+Successfully Quit The Program.
