@@ -106,8 +106,7 @@ You have chosen to REMOVE a Name.
 --------------------------------------
 Please select the name you wish to remove:
 Sanji
-The updated list is: Luffy
-The updated list is: Sanji
+The updated list is: Luffy Zoro
 *******************************************************
 Please press 'y' if you want to continue the program!
 ***********************************************************
