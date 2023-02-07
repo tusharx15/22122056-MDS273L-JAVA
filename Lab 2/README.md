@@ -29,10 +29,12 @@ Format your results properly!!
 # OUTPUT:
 ------------WELCOME--------------
 
-Welcome to Menu Program.## You have the following options available: 
+Welcome to Menu Program.## You have the following options available:
+
 1: Enter a Name.
 2: Search a Name.
 3: Remove a Name.
+
 Please choose what you want to perform:
 1
 --------------------------------
