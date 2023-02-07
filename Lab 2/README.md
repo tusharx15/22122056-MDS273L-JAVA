@@ -88,6 +88,7 @@ You have chosen to SEARCH a Name.
 --------------------------------
 Kindly enter the name you wish to search for:
 Zoro
+
 Name is found at position 2
 Zoro
 *******************************************************
@@ -106,6 +107,7 @@ You have chosen to REMOVE a Name.
 --------------------------------------
 Please select the name you wish to remove:
 Sanji
+
 The updated list is: Luffy Zoro
 *******************************************************
 Please press 'y' if you want to continue the program!
