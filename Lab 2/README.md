@@ -1,7 +1,5 @@
 # LAB-2
 # QUESTION:
-
-
 You are supposed to create a menu-driven program that has the following menu options:
 Enter a name
 Search for a name
@@ -46,6 +44,7 @@ Luffy
 Please press 'y' if you want to continue the program!
 ***********************************************************
 y
+
 Welcome to Menu Program.## You have the following options available: 
 1: Enter a Name.
 2: Search a Name.
@@ -61,6 +60,7 @@ Zoro
 Please press 'y' if you want to continue the program!
 ***********************************************************
 y
+
 Welcome to Menu Program.## You have the following options available: 
 1: Enter a Name.
 2: Search a Name.
@@ -76,6 +76,7 @@ Sanji
 Please press 'y' if you want to continue the program!
 ***********************************************************
 y
+
 Welcome to Menu Program.## You have the following options available: 
 1: Enter a Name.
 2: Search a Name.
@@ -93,6 +94,7 @@ Zoro
 Please press 'y' if you want to continue the program!
 ***********************************************************
 y
+
 Welcome to Menu Program.## You have the following options available: 
 1: Enter a Name.
 2: Search a Name.
