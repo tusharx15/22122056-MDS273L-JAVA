@@ -28,6 +28,7 @@ Format your results properly!!
 
 # OUTPUT:
 ------------WELCOME--------------
+
 Welcome to Menu Program.## You have the following options available: 
 1: Enter a Name.
 2: Search a Name.
