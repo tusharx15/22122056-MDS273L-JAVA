@@ -15,3 +15,6 @@ One static String array storing the names (note the program can store up to 1024
 One two-dimensional string array storing the details of up to 1024 students,
 A menu-driven main method implementing the functions and functionality.
 Plan your program with a flow chart before starting with coding. Since you are using functions, plan what should be the returning values and how to implement them.
+
+# OUTPUT:
+
