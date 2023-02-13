@@ -69,11 +69,18 @@ Please enter the student's Course:
 Data Science
 
 --------Welcome------
+
 --------This is the Student Portal------------
+
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
+
+---------------------------------
 1
 
 ---------------------------------------------------------------------
@@ -108,24 +115,40 @@ Please enter the student's Course:
 
 ----------------------------------------
 Economics Analysis
+
 --------Welcome------
+
 --------This is the Student Portal------------
+
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
 
+--------------------------------------------------
 2
+
 -------------------------------------------------------
 
 Enter the name of the student whose details you want:
 Jack
+
 --------Welcome------
+
 --------This is the Student Portal------------
+
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
+
+-----------------------------------
 3
 Which student's details do you want? 
 Jim
@@ -136,19 +159,35 @@ Jim
 jim123@gmail.com
 MSC
 Data Science
+
+
 --------Welcome------
+
 --------This is the Student Portal------------
+
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
+
+-----------------------------------
 5
 --------------Invalid Choice! Please Make A Valid Choice-------------
+
 --------Welcome------
+
 --------This is the Student Portal------------
+
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
+
 4
 Successfully exit the Student Portal!
