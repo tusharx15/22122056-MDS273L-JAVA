@@ -150,6 +150,7 @@ Jack
 
 -----------------------------------
 3
+
 Which student's details do you want? 
 Jim
 Name is found at position 1
@@ -175,6 +176,7 @@ Data Science
 
 -----------------------------------
 5
+
 --------------Invalid Choice! Please Make A Valid Choice-------------
 
 --------Welcome------
@@ -190,4 +192,5 @@ Data Science
 4- Exit the Student Portal
 
 4
+
 Successfully exit the Student Portal!
