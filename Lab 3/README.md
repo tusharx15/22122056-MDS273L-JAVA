@@ -17,4 +17,104 @@ A menu-driven main method implementing the functions and functionality.
 Plan your program with a flow chart before starting with coding. Since you are using functions, plan what should be the returning values and how to implement them.
 
 # OUTPUT:
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+1
+---------------------------------------------------------------------
+Please enter the details of the student as follows:
+----------------------------
+Please enter the Name of the student:
+------------------------------------
+Jim
+----------------------------------------
+Please enter the Registration Number of the student:
+----------------------------------------
+12345
+----------------------------------------
+Please enter the Email of the student:
+----------------------------------------
+jim123@gmail.com
+----------------------------------------
+Please enter the student's Programme:
+----------------------------------------
+MSC
+----------------------------------------
+Please enter the student's Course:
+----------------------------------------
+Data Science
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+1
+---------------------------------------------------------------------
+Please enter the details of the student as follows:
+----------------------------
+Please enter the Name of the student:
+------------------------------------
+Jack 
+----------------------------------------
+Please enter the Registration Number of the student:
+----------------------------------------
+67890
+----------------------------------------
+Please enter the Email of the student:
+----------------------------------------
+jack_123@gmail.com
+----------------------------------------
+Please enter the student's Programme: 
+----------------------------------------
+BSC
+----------------------------------------
+Please enter the student's Course:
+----------------------------------------
+Economics Analysis
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+2
+-------------------------------------------------------
+Enter the name of the student whose details you want:
+Jack
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+3
+Which student's details do you want? 
+Jim
+Name is found at position 1
+The details of the student are:
+Jim
+12345
+jim123@gmail.com
+MSC
+Data Science
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+5
+--------------Invalid Choice! Please Make A Valid Choice-------------
+--------Welcome------
+--------This is the Student Portal------------
+1- Enter student details
+2- Display the details
+3- Search the student's details
+4- Exit the Student Portal
+4
+Successfully exit the Student Portal!
 
