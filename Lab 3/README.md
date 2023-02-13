@@ -18,8 +18,10 @@ Plan your program with a flow chart before starting with coding. Since you are u
 
 # OUTPUT:
 
---------Welcome------
+--------Welcome--------
+
 --------This is the Student Portal------------
+
 1- Enter student details
 2- Display the details
 3- Search the student's details
