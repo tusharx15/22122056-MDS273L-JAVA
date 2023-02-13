@@ -23,9 +23,14 @@ Plan your program with a flow chart before starting with coding. Since you are u
 --------This is the Student Portal------------
 
 1- Enter student details
+
 2- Display the details
+
 3- Search the student's details
+
 4- Exit the Student Portal
+
+---------------------------------------
 1
 
 ---------------------------------------------------------------------
