@@ -62,18 +62,20 @@ public class lab2 {
                     System.out.println("--------------------------------------");
                     System.out.println("Please select the name you wish to remove: ");
                     String remove = scan.nextLine();
-                    int temp = 1;
+                    int temp = -1;
                     for (int c = 0; c < i; c++) {
-                        if (arr[c] == arr[i]) {
+                        if (arr[c].equalsIgnoreCase(remove)) {
                             temp = c;
                         }
                     }
-                    for (int c = temp; c < i; c++) {
-                        arr[c] = arr[c + 1];
+                    if(temp != -1){
+                        for (int c = temp; c < i; c++) {
+                            arr[c] = arr[c + 1];
+                        }
+                        i-=1; // '-' because we are removing an element from the array
                     }
-                    i-=1; // '-' because we are removing an element from the array
                     for(int c=0; c<i;c++){
-                        System.out.println("The updated list is: " +arr[c]);
+                        System.out.print(arr[c]+" ");
                     }
                     break;
                 default:
@@ -87,3 +89,5 @@ public class lab2 {
         System.out.println("Successfully Quit The Program.");
     }
 }
+
+
