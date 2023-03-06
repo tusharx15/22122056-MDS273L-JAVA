@@ -79,6 +79,7 @@ class lab3 {
         for (int i = 0; i < name.length; i++) {
             if (dnm.equalsIgnoreCase(name[i])) {
                 System.out.println("Name is found at position " + (i + 1)); // to display the position of the student
+                
                 System.out.println("The details of the student are: ");
                 for (int j = 0; j < 5; j++) {
                     System.out.println(arr[i][j]);
