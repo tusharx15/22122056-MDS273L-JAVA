@@ -19,6 +19,7 @@ Please enter your choice:
 1. Encrypt A Message!
 2. Decrpyt A Message!
 3. Exit!
+
 1
 ---------------------------
 Please enter the messsage you wish to encrypt:
@@ -31,6 +32,7 @@ Please enter your choice:
 1. Encrypt A Message!
 2. Decrpyt A Message!
 3. Exit!
+
 2
 -----------------------------------
 Please enter the message you wish to decrpyt:
@@ -43,6 +45,7 @@ Please enter your choice:
 1. Encrypt A Message!
 2. Decrpyt A Message!
 3. Exit!
+
 4
 ____OOPS!!!____
 Invalid choice! Please try again.
@@ -51,6 +54,7 @@ Please enter your choice:
 1. Encrypt A Message!
 2. Decrpyt A Message!
 3. Exit!
+
 3
 ------------------------------
 SUCCESSFULLY EXIT THE PROGRAMME!
