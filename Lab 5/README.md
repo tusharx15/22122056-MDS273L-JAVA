@@ -60,3 +60,10 @@ Please enter your choice:
 ------------------------------
 SUCCESSFULLY EXIT THE PROGRAMME!
 ------------------------------
+
+
+![flowchart_lab-5](https://user-images.githubusercontent.com/118044440/228127506-1a6ba615-8e2f-43a9-92d9-1619ba7eff1c.png)
+
+
+
+
