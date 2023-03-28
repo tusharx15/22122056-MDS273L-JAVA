@@ -19,5 +19,4 @@ The user details are as follows: {Name:Tushar Kumar, Age : 23, Gender: m, Marrit
 The User is from the Northern Region.
 ----------------
 The User is working in an MNC
-
 ----------------
