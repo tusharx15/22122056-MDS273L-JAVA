@@ -20,9 +20,7 @@ To print the transactions
 To print account summary
 
 # OUTPUT:
-
-PS C:\Users\Aditi\OneDrive\Desktop\LAB-1\22122005-MDS273L-JAVA\lab-4> javac lab_4.java
-PS C:\Users\Aditi\OneDrive\Desktop\LAB-1\22122005-MDS273L-JAVA\lab-4> java lab_4      
+   
 WELCOME TO ONLINE HDFC PORTAL !
 _______________________REGISTER YOURSELF NOW______________________________-
 Full name :
