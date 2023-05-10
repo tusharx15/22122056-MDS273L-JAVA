@@ -1,4 +1,4 @@
-Lab 6
+# QUESTION-
 Create a Student class, that will store the details of the Student, below mentioned are the attributes of a student.
 Reg. No.
 Name
