@@ -113,4 +113,5 @@ The updated list is: Luffy Zoro
 Please press 'y' if you want to continue the program!
 ***********************************************************
 n
+
 Successfully Quit The Program.
